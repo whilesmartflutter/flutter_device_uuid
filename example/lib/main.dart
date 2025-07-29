@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:device_id/device_id.dart';
+import 'package:flutter_device_uuid/flutter_device_uuid.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,8 +31,7 @@ class _MyAppState extends State<MyApp> {
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      deviceId =
-          await DeviceId.uuid() ?? 'Unknown Device UUID';
+      deviceId = await DeviceUuid.uuid() ?? 'Unknown Device UUID';
       if (kDebugMode) {
         print("Device ID: $deviceId");
       }

@@ -1,4 +1,4 @@
-package africa.ejara.device_id;
+package com.whilesmart.flutter_device_uuid;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -31,6 +31,6 @@ public class DeviceId {
         long leastSigBits = Long.parseUnsignedLong(hex.substring(16), 16);
 
         // Create a new UUID using the bits
-        return new UUID(mostSigBits, leastSigBits).toString().replaceAll("-", "");
+        return new UUID(mostSigBits, leastSigBits).toString();
     }
 }

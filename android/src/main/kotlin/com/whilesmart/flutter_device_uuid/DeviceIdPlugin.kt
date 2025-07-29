@@ -1,4 +1,4 @@
-package africa.ejara.device_id
+package com.whilesmart.flutter_device_uuid
 
 import androidx.annotation.NonNull
 
@@ -20,7 +20,7 @@ class DeviceIdPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var applicationContext: Context
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "device_id")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_device_uuid")
     channel.setMethodCallHandler(this)
     applicationContext = flutterPluginBinding.applicationContext
   }

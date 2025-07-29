@@ -1,10 +1,10 @@
-name: device_id
+name: flutter_device_uuid
 description: A new Flutter project.
 version: 0.0.1
 homepage:
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
+  sdk: ">=2.19.6 <3.0.0"
   flutter: ">=2.5.0"
 
 dependencies:
@@ -35,7 +35,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: africa.ejara.device_id
+        package: com.whilesmart.flutter_device_uuid
         pluginClass: DeviceIdPlugin
       ios:
         pluginClass: DeviceIdPlugin

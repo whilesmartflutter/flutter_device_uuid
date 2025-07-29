@@ -1,4 +1,4 @@
-group 'africa.ejara.device_id'
+group 'com.whilesmart.flutter_device_uuid'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 31
-    namespace "africa.ejara.device_id"
+    namespace "com.whilesmart.flutter_device_uuid"
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

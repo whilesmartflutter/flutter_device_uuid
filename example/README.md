@@ -1,6 +1,6 @@
-# device_id_example
+# flutter_device_uuid_example
 
-Demonstrates how to use the device_id plugin.
+Demonstrates how to use the flutter_device_uuid plugin.
 
 ## Getting Started
 
