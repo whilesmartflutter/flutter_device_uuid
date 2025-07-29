@@ -5,10 +5,10 @@ This Flutter library aims to simplify the process of obtaining a unique identifi
 
 1. Import the package
 ```dart
-import 'package:device_id/device_id.dart';
+import 'package:flutter_device_uuid/flutter_device_uuid.dart';
 ```
 
 2. Call the method `uuid()` to get the device Id
 ```dart
-String deviceId = await DeviceId.uuid();
+String deviceId = await DeviceUuid.uuid();
 ```
